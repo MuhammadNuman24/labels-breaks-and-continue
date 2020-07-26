@@ -1,0 +1,32 @@
+<script>
+//Break;
+doIt:{
+
+    console.log('some code');
+
+break doIt;
+
+    console.log('more code');
+
+
+}
+
+outerLoop:
+for(let outer=0; outer<10;  outer++){
+    innerLoop:
+    for(let inner=0; inner<10; inner++){
+    console.log('outer:',outer,'inner:',inner)
+    
+    
+    
+    if (inner > 5) {
+    continue outerLoop;
+}
+
+}
+
+}
+
+
+
+</script>
